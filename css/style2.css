@@ -1,44 +1,39 @@
 
-#wrapper {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    -webkit-animation: cardAnimation 7s;
-    animation: cardAnimation 7s;
-}
 
-#Pregunta1{
+
+#Preguntas{
 
   color:black;
 }
 
 
 body {
-    font-family:serif;
+
  background: url("../img/fondoN.jpg");
  color :black;
 }
 
+#Preguntas{
+align-content: center;
 
-header {
-    
-    color:black;
-    
-    
 }
-#fillSpacesPerson,#fillSpacesCa{
-    color:black;
-}
+
+
 #titulo{
   text-align: center;
 }
 
 h1 {
-    font-size: 5px;
-    text-transform: uppercase;
+    font-size: 10px;
     text-align: center;
-    color: #000000;
+    color: black;
+    
+}
+
+#Preguntas{
+
+  text-align: center;
+  color:black;
 }
 
 
@@ -53,13 +48,7 @@ h1 {
     display: inline;
 }
 
-#Preguntas {
-  color:black;
-}
 
-#MateriaN{
-  color:black;
-}
 
 #Finalizar{
   color:black;
