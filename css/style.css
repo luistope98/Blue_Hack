@@ -12,24 +12,28 @@
     margin:0;
   }
   .navbar-header{
-    width: 40%;
+    width: 60%;
   }
 
   .navbar-brand{
   	float: left;
-  	min-height: 80px;
-  	padding: 0 7px 7px;
+  	min-height: 55px;
+  	padding: 0 5px 5px;
   }
   .navbar-inverse .navbar-header .navbar-brand {
     width: 80%;
   }
+
+  .navbar {
+    background-color: #FFF;
+  }
   .navbar-inverse .navbar-nav li a , .navbar-inverse .navbar-nav li a:focus , .navbar-inverse .navbar-nav li a:hover {
   	color: #B6B6B6;
-  	background-color: #FFF;
+  	background-color: #f2f2f2;
   }
 
   .navbar-inverse .navbar-nav li a{
-  	color: #FFF;
+  	color: #002661;
   }
   .main-text{
     position: absolute;
@@ -53,63 +57,4 @@
   #develop{
     padding: 5% 0;
   }
-  footer{
-  	width: 100%;
-  	background-color: #002661;
-  	padding: 5%;
-  	color: #FFF;
-  }
-  .fa{
-  	padding: 20px;
-  	font-size: 25px;
-  	color: #FFF;
-
-  }
-  .fa:hover{
-  	color:#D5D5D5;
-  	text-decoration: none;
-  }
-  #motivation{
-    color:#002661;
-  }
-  #sponsors{
-    padding: 3% 0;
-  }
-  
-  #FAQ{
-    padding: 3% 0;
-  }
-
-  a:hover{
-    text-decoration: none;
-  }
-  @media (max-width: 600px){
-    
-  	.carousel-caption{
-  		display: none;
-  	}
-  	#icon{
-  		max-width: 150ox;
-  	}
-  	h2{
-  		font-size: 1.9em;
-  	}
-    .LogoPrincipal{
-      width: 20%;
-    }
-  }
-
-  @media (max-width: 900px){
-  .fa{
-  	font-size: 20px;
-  	padding: 10px;
-    }
-  }
-  
-
-  
-   @media (min-width: 600px){
-    #hidd{
-      display: none;
-    }
-  }
+ 
