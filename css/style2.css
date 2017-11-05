@@ -8,21 +8,27 @@
     animation: cardAnimation 7s;
 }
 
+#Pregunta1{
+
+  color:black;
+}
+
+
 body {
     font-family:serif;
- background: url("../img/fondo.jpg");
+ background: url("../img/fondoN.jpg");
+ color :black;
 }
 
 
 header {
-    background-color:#2a2a2a;
-    color:#000029;
-    height: 120px;
-    padding: 4px;
+    
+    color:black;
+    
     
 }
 #fillSpacesPerson,#fillSpacesCa{
-    color:blue;
+    color:black;
 }
 #titulo{
   text-align: center;
@@ -32,7 +38,7 @@ h1 {
     font-size: 5px;
     text-transform: uppercase;
     text-align: center;
-    color: #000029;
+    color: #000000;
 }
 
 
@@ -47,18 +53,20 @@ h1 {
     display: inline;
 }
 
+#Preguntas {
+  color:black;
+}
 
-#btnPerson, #btnCar {
-    padding: 0 10px 0 10px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #000029;
-    padding: 8px;
-    font-variant: small-caps;
+#MateriaN{
+  color:black;
+}
+
+#Finalizar{
+  color:black;
 }
 
 .formTitles {
-    color: #000029;
+    color: #000000;
     text-align: center;
 }
 
@@ -76,5 +84,5 @@ h1 {
 #navigator {
     height: 50px;
     text-align: center;
-    background-color:#000029;
+    background-color:#000000;
 }
